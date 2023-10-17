@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useRef } from "react";
-import "./Hero.css";
 import axios from "axios";
 const Hero = ({
   images,
@@ -65,7 +64,7 @@ const Hero = ({
     "
     >
       <img
-        className="bgImg h-[500px] w-[100%] object-cover blur-sm"
+        className="bgImg h-[600px] w-[100%] object-cover blur-sm"
         src="./mountain-bg.jpg"
         alt=""
       />
