@@ -17,9 +17,9 @@ console.log( "popContent",popupContent)
 
    
      ( <div key={pop.id} className="flex justify-center w-8/12 mx-auto mt-10  ">
-        <div className="max-w-4xl bg-zinc-950  border border-gray-800 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 h-fit relative">
-          <a href="#" className="flex justify-center items-center ">
-            <img className="rounded-t-lg object-fill max-h-[60vh] " src={pop?.urls?.regular} />
+        <div className="max-w-4xl bg-zinc-950  border border-gray-800 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 h-fit relative ">
+          <a href="#" className="flex justify-center items-center rounded-t-2xl ">
+            <img className="  object-fill max-h-[60vh] " src={pop?.urls?.regular} />
           </a>
           <div className="top p-5 flex items-center gap-2 justify-between">
             <a href="#">
