@@ -62,8 +62,10 @@ const Navbar = ({  images,
 
 
 <div className="left cursor-pointer">
-
 <p style={{fontFamily: "'Pattaya', sans-serif", fontSize: "30px"}}>Image Gallery</p>
+
+
+
 
 </div>
 
