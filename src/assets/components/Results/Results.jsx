@@ -33,7 +33,7 @@ const Results = ({
                 changedContent(image);
               }}
               key={image.id}
-              className="max-w-sm  break-inside-avoid bg-zinc-950  border border-gray-800 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 h-fit"
+              className="max-w-sm  break-inside-avoid bg-zinc-950  border border-gray-800 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700 h-fit transition-transform duration-500 hover:scale-105"
             >
               <a href="#">
                 <img
